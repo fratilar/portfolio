@@ -679,7 +679,6 @@ textarea:hover {
   }
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 250px);
   }
   .subtitlu-resume {
     position: initial;
@@ -733,7 +732,6 @@ textarea:hover {
   }
   .grid-container {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 230px);
   }
   .continut-contact {
     padding: 0;
