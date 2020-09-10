@@ -1,0 +1,38 @@
+<!Doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <img class="imagine1" src="logo.png" alt="logo-ul FED">
+    </header>
+    <div class="container">
+        <aside class="meniu">
+            <a href="index.html">Homepage</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </aside>
+    </div>
+    <div class="container2">
+        <main class="continut">
+            <h1>Contact</h1>
+            <form action="receive.php" method="POST">
+                <fieldset class="camp1">
+                    <legend>Informatii Personale</legend>
+                    <input class="col-50" type="text" name="nume" placeholder="Nume">
+                    <input class="col-50" type="text" name="prenume" placeholder="Prenume">
+                    <input class="col-100" type="text" name="adresa" placeholder="Adresa">
+                </fieldset>
+                <fieldset class="camp2">
+                    <legend>Mesaj</legend>
+                    <textarea class="col-100" name="textarea" cols="30" rows="10"></textarea>
+                </fieldset>
+            </form>
+            <div class="center">
+                <input type="submit" class="buton" value="Trimite">
+            </div>    
+        </main>
+    </div>
+</body>
+</html>

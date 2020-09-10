@@ -1,0 +1,153 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.logo {
+  background-color: red;
+  color: white;
+  font-size: 8px;
+  line-height: 10px;
+  height: min-content;
+  margin-top: 7px;
+  padding: 1px 2px;
+}
+.header {
+  margin-top: 30px;
+}
+.subtitlu {
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding-left: 15px;
+}
+.fontSize {
+  font-size: 13px;
+}
+.icon1 {
+  color: orange;
+}
+
+.icon2 {
+  font-size: 14px;
+}
+.fa-facebook-f {
+  color: blue;
+  padding: 12px;
+}
+.fa-twitter {
+  color: lightblue;
+  padding: 12px;
+}
+.fa-pinterest-p {
+  color: rgb(218, 31, 31);
+  padding: 12px 14px;
+}
+.fa-dribbble {
+  color: pink;
+  padding: 12px;
+}
+.fa-facebook-f:hover {
+  background-color: blue;
+  border-radius: 50%;
+  padding: 12px;
+  color: white;
+}
+.fa-twitter:hover {
+  color: white;
+  background-color: lightblue;
+  border-radius: 50%;
+  padding: 12px;
+}
+.fa-pinterest-p:hover {
+  color: white;
+  background-color: rgb(218, 31, 31);
+  border-radius: 50%;
+  padding: 12px 14px;
+}
+.fa-dribbble:hover {
+  color: white;
+  background-color: pink;
+  border-radius: 50%;
+  padding: 12px;
+}
+.nav-link:hover {
+  background-color: orange;
+  border-left: 5px solid green;
+  padding: 10px;
+  border-radius: 0;
+  color: white !important;
+}
+.nav {
+  font-size: 14px;
+  text-align: left;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: orange;
+  border-left: 5px solid green;
+  padding: 10px;
+  border-radius: 0;
+  color: white !important;
+}
+.fa-shopping-cart {
+  color: green;
+  font-size: 18px;
+  width: 50px;
+}
+img.absolut {
+  position: absolute;
+  top: 0;
+}
+.subtitlu2 {
+  margin: 70px 0 30px 0;
+}
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  opacity: unset;
+  margin: 0 7px;
+  background-color: green;
+}
+li.active {
+  background-color: orange;
+}
+.small-img {
+  width: 150px;
+  height: 150px;
+}
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(59, 57, 57);
+  margin-top: 100px;
+}
+.styles {
+  color: #9ba3aa;
+  font-size: 15px;
+  line-height: 30px;
+}
+.styles:hover {
+  color: orange;
+}
+.footer-i {
+  margin: 0 5px;
+  font-size: 12px;
+}
+.bigger {
+  font-size: 3rem;
+}
+.style2 {
+  height: 40px;
+  padding: 5px 3px 0 3px;
+}
+.logos-2 {
+  margin-top: 25px;
+}
+.subtitlu_2 {
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+.fixed {
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+}

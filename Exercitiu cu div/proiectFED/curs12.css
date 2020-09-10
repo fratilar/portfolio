@@ -1,0 +1,7 @@
+ul{
+	color:blue;
+}
+
+.clasaLi:nth-child(3){
+	font-size:25px;
+}
