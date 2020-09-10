@@ -574,6 +574,7 @@ img.absolute {
   position: absolute;
   transition: all 0.3s ease-in-out;
   filter: grayscale(1);
+  object-fit: cover;
 }
 .grid-img:hover {
   transform: scale(1.2);
@@ -620,7 +621,7 @@ textarea:hover {
   margin: 10px 0 20px 0;
 }
 
-/* Prices Page */
+
 
 /* Media queries */
 
@@ -629,8 +630,15 @@ textarea:hover {
     width: 94%;
     margin: 30px auto;
   }
-  .container {
+  /* .container {
     padding: 0 50px;
+  } */
+  .years__content p {
+    font-size: 13px;
+  }
+  .my-row {
+    margin: 30px 0 80px;
+    justify-content: center;
   }
 }
 
@@ -678,6 +686,7 @@ textarea:hover {
   }
   .responsive {
     transition: all 0.5s ease;
+    list-style-type: none;
   }
 }
 @media (max-width: 430px) {
@@ -728,5 +737,11 @@ textarea:hover {
   }
   .continut-contact {
     padding: 0;
+  }
+  .subtitlu {
+    margin-top: 30px;
+  }
+  .nav-link {
+    padding: .5rem .4rem;
   }
 }
