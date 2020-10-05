@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Russo+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <title>Hotel on Wheels</title>
+
+    <link rel="stylesheet" href="default.css" />
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="main-container">
+            <div class="nav-wrapper">
+                <div class="logo-nav"><a href="#"><img src="./imagini/logo.png" alt=""></a></div>
+                <div class="hamburger" onclick="toggle();"></div>   
+                <ul class="navigation-list menu">
+                    <li class="list-items"><a href="">Autorulote</a></li>
+                    <li class="list-items"><a href="">Inchiriaza</a></li>
+                    <li class="list-items"><a href="">Rezervarea mea</a></li>
+                    <li class="list-items"><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section class="s1">
+        <div class="intro-wrapper">
+            <h1>
+                Head anywhere. Find freedom
+            </h1>
+                                
+            <form id="contact-form">
+                <input class="input-field" type="text" placeholder="Preluare din">
+                <input class="input-field" type="text" placeholder="Din data de">
+                <input class="input-field" type="text" placeholder="Pana in data de">
+                <input class="input-field" type="text" placeholder="Numar persoane">
+                <button id="submit-btn" type="submit">Cauta</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+
+            <div class="subtitlu">
+                <h2>O vacanta pe roti fara griji</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, nesciunt beatae libero quisquam provident ut perspiciatis doloribus at corrupti exercitationem?</p>
+            </div>
+
+            <div class="post-wrapper">
+
+                <div class="post">
+                    <div class="logo logo-blue"><i class="fas fa-route"></i></div>
+                    <h3 class="descriere">Fara limite de km</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A magni nesciunt voluptatibus animi,enim hic totam facilis itaque odio commodi reprehenderit! Similique voluptates magnam nihil, vitae
+                    assumenda explicabo eaque! Quam.</p>
+                </div>
+
+                <div class="post">
+                    <div class="logo logo-tomato"><i class="fas fa-caravan"></i></div>
+                    <h3 class="descriere">Vehicule testate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A magni nesciunt voluptatibus animi,enim hic totam facilis itaque odio commodi reprehenderit! Similique voluptates magnam nihil, vitae
+                    assumenda explicabo eaque! Quam.</p>
+                </div>
+
+                <div class="post">
+                    <div class="logo logo-blue"><i class="fas fa-car-crash"></i></div>
+                    <h3 class="descriere">Asigurare Casco</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A magni nesciunt voluptatibus animi, enim hic totam facilis itaque odio commodi reprehenderit! Similique voluptates magnam nihil, vitae
+                    assumenda explicabo eaque! Quam.</p>
+                </div>
+
+                <div class="post">
+                    <div class="logo logo-tomato"><i class="fas fa-bed"></i></div>
+                    <h3 class="descriere">Ultimele dotari</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A magni nesciunt voluptatibus animi, enim hic totam facilis itaque odio commodi reprehenderit! Similique voluptates magnam nihil, vitae assumenda explicabo eaque! Quam.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="s1">
+        <div class="main-container">
+            <h2 style="text-align: center;" class="img-title">Adaugate recent</h2>
+
+            <div class="images-wrapper">
+
+                <div class="img-post">
+                    <img class="thumbnail" src="./imagini/auto1.jpg" alt="autorulota">
+                    <p class="absolute"><span>154 Euro</span>/noapte</p>
+                    <div class="img-preview">
+                        <p class="titlu-autorulota">Family Plus</p>
+                        <div class="content-preview">
+                            <i class="fas fa-map-marked-alt"><span>Arad</span></i>
+                            <i class="fas fa-user"><span>7</span></i>
+                            <i class="fas fa-bed"><span>7</span></i>
+                        </div>
+                        <i class="fas fa-car"><span>Autorulota</span></i>
+                    </div>
+                </div>
+
+                <div class="img-post">
+                    <img class="thumbnail" src="./imagini/auto2.jpg" alt="autorulota">
+                    <p class="absolute"><span>140 Euro</span>/noapte</p>
+                    <div class="img-preview">
+                        <p class="titlu-autorulota">Family Adventure</p>
+                        <div class="content-preview">
+                            <i class="fas fa-map-marked-alt"><span>Arad</span></i>
+                            <i class="fas fa-user"><span>6</span></i>
+                            <i class="fas fa-bed"><span>6</span></i>
+                        </div>
+                        <i class="fas fa-car"><span>Autorulota</span></i>
+                    </div>
+                </div>
+
+                <div class="img-post">
+                    <img class="thumbnail" src="./imagini/auto3.jpg" alt="autorulota">
+                    <p class="absolute"><span>135 Euro</span>/noapte</p>
+                    <div class="img-preview">
+                        <p class="titlu-autorulota">Laika Plus</p>
+                        <div class="content-preview">
+                            <i class="fas fa-map-marked-alt"><span>Arad</span></i>
+                            <i class="fas fa-user"><span>5</span></i>
+                            <i class="fas fa-bed"><span>5</span></i>
+                        </div>
+                        <i class="fas fa-car"><span>Autorulota</span></i>
+                    </div>
+                </div>
+
+                <div class="img-post">
+                    <img class="thumbnail" src="./imagini/auto4.jpg" alt="autorulota">
+                    <p class="absolute"><span>145 Euro</span>/noapte</p>
+                    <div class="img-preview">
+                        <p class="titlu-autorulota">Deluxe 2+2</p>
+                        <div class="content-preview">
+                            <i class="fas fa-map-marked-alt"><span>Arad</span></i>
+                            <i class="fas fa-user"><span>4</span></i>
+                            <i class="fas fa-bed"><span>4</span></i>
+                        </div>
+                        <i class="fas fa-car"><span>Autorulota</span></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <div class="rent-wrapper">
+
+                <img class="img_chirie" src="./imagini/rent1.jpg">
+
+                <div class="rent-intro">
+                    <i class="far fa-handshake"></i>
+                    <h3>E simplu sa inchiriezi</h3>
+                    <p>O vacanta pe roti este o aventura propulsata de dor de duca si libertate. Vei intalni oameni minunati si locuri fabuloase. Iar ca totul sa mearga exact cum iti doresti, te ajutam sa alegi ce ti se potriveste din sute de vehicule disponibile.</p>
+                    <button class="buton1" type="button">Avantajele inchirierii</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="s1">
+        <div class="main-container">
+            <div class="rent-wrapper">
+
+                <div class="rent-intro">
+                    <i class="far fa-list-alt"></i>
+                    <h3>Listeaza-ti vehiculul</h3>
+                    <p>O vacanta pe roti este o aventura propulsata de dor de duca si libertate. Vei intalni oameni minunati si locuri fabuloase.Iar ca totul sa mearga exact cum iti doresti, te ajutam sa alegi ce ti se potriveste din sute de vehicule disponibile.</p>
+                    <button class="buton2" type="button">Avantajele listarii</button>
+                </div>
+
+                <img class="img_chirie" src="./imagini/rent2.jpg">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <h2 style="text-align: center;">Ce spun clientii nostrii</h2>
+
+            <div class="testimonials-wrapper">
+                <div class="testimonials-intro">
+                    <img class="poza-clienti" src="./imagini/clienti1.jpg" alt="">
+                    <div class="test-preview">
+                        <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, itaque!</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis rem porro animi, molestias quia ipsa numquam consectetur, vel iusto corrupti quaerat veniam illum? Culpa praesentium deserunt dolor vero ad.</p>
+                    </div>
+                </div>
+            
+                <div class="testimonials-intro">
+                    <img class="poza-clienti" src="./imagini/clienti2.jpg" alt="">
+                    <div class="test-preview">
+                        <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, itaque!</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis rem porro animi, molestias quia ipsa numquam consectetur, vel iusto corrupti quaerat veniam illum? Culpa praesentium deserunt dolor vero ad.</p>
+                    </div>
+                </div>
+            
+                <div class="testimonials-intro">
+                    <img class="poza-clienti" src="./imagini/clienti3.jpg" alt="">
+                    <div class="test-preview">
+                        <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, itaque!</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis rem porro animi, molestias quia ipsa numquam consectetur, vel iusto corrupti quaerat veniam illum? Culpa praesentium deserunt dolor vero ad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="main-container">
+            <div class="footer-wrapper">
+
+                <div class="left-column">
+                    <h6>Despre Haff</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iusto reprehenderit similique quas impedit quia ea sapiente sit enim a?</p>
+                    <div class="social">
+                        facebook
+                        twitter
+                        youtube
+                        instagram
+                    </div>
+                </div>
+                
+                <div class="right-column">
+                    <div class="links">
+                        <h6>Linkuri utile</h6>
+                        <ul>
+                            <li>Termeni si conditii</li>
+                            <li>Politica Cookies</li>
+                            <li>ANPR</li>
+                            <li>ODR</li>
+                            <li>GDRP</li>
+                        </ul>
+                    </div>
+                
+                    <div class="contact">
+                        <h6>Contact</h6>
+                        <ul>
+                            <li>Sibiu</li>
+                            <li>0740275534</li>
+                            <li>fratila@yahoo.com</li>
+                            <li>fratila.ro</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
